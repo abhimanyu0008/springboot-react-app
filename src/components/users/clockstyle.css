@@ -1,0 +1,54 @@
+.clock-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.clock {
+    width: 200px;
+    height: 200px;
+    border: 4px solid black;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.hand {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform-origin: bottom;
+    transform: translateX(-50%) rotate(0deg);
+    background: black;
+    border-radius: 5px;
+}
+
+.hour-hand {
+    width: 6px;
+    height: 50px;
+    background: black;
+}
+
+.minutes-hand {
+    width: 4px;
+    height: 70px;
+    background: green;
+}
+
+.second-hand {
+    width: 2px;
+    height: 80px;
+    background: blue;
+}
+
+/* Center dot for the clock */
+.clock::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
