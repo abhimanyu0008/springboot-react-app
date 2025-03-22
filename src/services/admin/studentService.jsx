@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8088/students';
+const API_URL = 'http://javadev-env.eba-4ynrvfyj.us-east-2.elasticbeanstalk.com/students';
 
 // Fetch all students
 const fetchStudents = async () => {
