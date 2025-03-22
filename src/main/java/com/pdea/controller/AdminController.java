@@ -8,7 +8,7 @@ public class AdminController {
 
 	@GetMapping("admin")
 	public String get() {
-		return "add more details";
+		return "add more details , again details added";
 	}
 	
 }
