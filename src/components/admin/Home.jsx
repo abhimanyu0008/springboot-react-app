@@ -1,7 +1,8 @@
 import React from 'react';
-import Navbar from '../../components/admin/navbar';
+
 import Student from './Student';
 import Footer from './Footer';
+import Navbar from './Navbar';
 
 function Home() {
   return (
@@ -9,6 +10,7 @@ function Home() {
       <Navbar />
       <Student />
       <Footer/>
+      
     </div>
   );
 }

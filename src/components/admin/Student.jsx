@@ -3,7 +3,7 @@ import { Container, Typography, Grid, TextField, MenuItem, Button,
   Table, TableContainer, TableHead, TableBody, TableRow, TableCell,
   Paper, IconButton, TablePagination,} from '@mui/material';
 import { Delete, Edit } from '@mui/icons-material';
-import studentService from '../../services/admin/studentService';
+import studentService from '../../api/services/studentService';
 
 const Student = () => {
   const [formData, setFormData] = useState({ name: '', email: '', phone: '', gender: '', branch: '' });
